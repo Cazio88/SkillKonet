@@ -36,3 +36,101 @@
     transform: rotate(360deg);
   }
 }
+/* App.css */
+.home-page {
+  text-align: center;
+  padding: 20px;
+}
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.sidebar-left,
+.sidebar-right {
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+.main-content {
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+.hero-image-container {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.hero-image {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); /* Adjust the gradient colors and opacity */
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%; /* Vertically center the text */
+  left: 50%; /* Horizontally center the text */
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff; /* Text color */
+  z-index: 1; /* Place text above the gradient overlay */
+}
+.hero-text h2{
+  color: white;
+  font-size: xx-large;
+}
+
+.hero-text p{
+  color: white;
+  font-size: x-large;
+}
+/* Add this to your CSS to style the job card */
+/* App.css */
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
