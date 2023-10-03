@@ -1,0 +1,52 @@
+.review-carousel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .review-card {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 5px;
+  }
+  
+  .review-text {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .review-author {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .next-button {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    font-weight: 500px;
+    max-width: max-content;
+    padding: 12px 28px;
+  }
+  
+  .next-button:hover {
+    background-color: rgb(41, 26, 244); 
+  }
+  .review-image {
+    width:90px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    border-radius: 50%; /* Make it round */
+   
+    margin: 0 auto; /* Center the image horizontally */
+    padding-top:0px;
+    display: block; /* Remove any default inline styling */
+  }
+  

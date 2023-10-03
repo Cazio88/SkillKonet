@@ -1,0 +1,24 @@
+.Navbar-container{
+display: flex;
+justify-content: space-between;
+}
+
+#menuitem {
+  display: flex;
+  list-style: none;
+  font-size: 20px;
+  color: blue;
+  margin: 20px;
+  padding: 10px;
+ 
+}
+
+li{
+  margin-right: 17px;
+  
+}
+.navbar img{
+  height: 40px;
+  width: 150px;
+  margin: 20px;
+}
